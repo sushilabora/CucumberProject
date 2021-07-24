@@ -14,10 +14,7 @@ Feature: Login Feature
     Examples: 
       | UserName    | Password |
       | abc@xyz.com | abc123   |
-     
-      
-      
-      
+
   @NegativeLogin @Sanity
   Scenario Outline: Verify that when user enters correct user name and password they should be able to login successfully
     Given User has opened the Simplilearn application
@@ -31,5 +28,3 @@ Feature: Login Feature
     Examples: 
       | UserName    | Password |
       | nic@abc.com | abc123   |
-      
-      

@@ -1,7 +1,4 @@
-
-
 package StepDefs;
-
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -10,8 +7,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		monochrome=true,
 		plugin= {"pretty","html:target/cucmber.html"},
-		features="src/features",
-		tags= {"@NegativeLogin","@Sanity"},
+		features="src/test/java/features",
+		tags= {"@DataTable"},
 		glue= {"StepDefs"}
 		)
 
